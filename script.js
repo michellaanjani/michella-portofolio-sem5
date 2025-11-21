@@ -2,50 +2,38 @@
 const projectsData = [
     {
         id: 0,
-        title: 'E-Commerce Platform',
+        title: 'E-Commerce Web App (React)',
         images: [
-            './picture/project/eCommerceReact.webp', 
-            'https://images.unsplash.com/photo-1563013544-824e9012c137?w=600&h=400&fit=crop'
+            './picture/project/eCommerceReact.webp'
         ], 
         description: 'A comprehensive e-commerce solution built with React. Features include sign in & sign up, product catalog, shopping cart, and order management.',
         longDescription: 'E-commerce web application built with React and TypeScript, featuring a product catalog, shopping cart, and purchase history. Includes AI-based product search that returns the 3 most relevant products using a Hugging Face Indonesian embedding model and vector search in MySQL, with all business logic exposed via Go APIs. Although this is a group project, I do almost all the work for the React front-end and connecting front-end with the Golang backend APIs.',
-        technologies: ['React', 'TypeScript', 'Golang', 'Redux', 'REST APIs', 'MySQL', 'Vercel'],
+        technologies: ['React', 'TypeScript', 'Golang', 'Redux', 'REST APIs', 'Postman', 'MySQL', 'PHP MyAdmin', 'Railway', 'Vercel'],
         link: 'https://github.com/gunawanbinus/digiberkat/tree/main/front-end'
     },
     {
         id: 1,
-        title: 'Analytics Dashboard',
+        title: 'Web for Admin E-Commerce (Laravel)',
         images: [
-            'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
-            'https://images.unsplash.com/photo-1543286386-713df548e9cc?w=600&h=400&fit=crop'
+            './picture/project/eCommerceAdminLaravel.webp',
+            './picture/project/eCommerceAdminLaravel-1.webp'
         ],
-        description: 'Real-time data visualization dashboard with interactive charts and customizable reports.',
-        longDescription: 'An enterprise-grade analytics platform that transforms complex data into actionable insights. The dashboard provides real-time monitoring of business metrics with customizable widgets and reports. Users can create custom dashboards, set up alerts, and export data.',
-        technologies: ['Vue.js', 'Python', 'FastAPI', 'MongoDB', 'D3.js', 'WebSocket'],
-        link: '#'
+        description: 'Interactive e-commerce admin dashboard with CRUD for products, categories, and employees, restock & order evaluation, and QR scanning via camera.',
+        longDescription: 'An e-commerce administration system designed to streamline store operations. It provides full CRUD modules for products, categories, and employees, supports restock and order evaluation, and enables fast verification through integrated QR code scanning using the device camera. During product creation, the system can request AI (Qwen2.5-VL-7B-Instruct, Hugging Face API) to automatically generate product descriptions based on the product name to reduce manual input time. I worked on: sign-in/sign-up authentication, role-based routes, QR scanning using the camera, and AI integration.',
+        technologies: ['Laravel', 'Bootstrap 5', 'REST APIs', 'Postman', 'Golang', 'Vercel', 'MySQL', 'PHP MyAdmin', 'Railway'],
+        link: 'https://github.com/gunawanbinus/digiberkat/tree/main/web-admin'
     },
     {
         id: 2,
-        title: 'Social Media App',
+        title: 'Tourism Platform — Desa Wisata Wringinanom',
         images: [
-            'https://images.unsplash.com/photo-1522542550221-31fd19575a2d?w=600&h=400&fit=crop'
+            './picture/project/Laravel-pioneer.webp',
+            './picture/project/Laravel-pioneer-1.webp'
         ],
-        description: 'Modern social networking platform for connecting people. Share posts, photos, and engage with your community.',
-        longDescription: 'A feature-rich social media application that enables users to create profiles, share content, follow other users, and engage through likes, comments, and direct messaging. The platform includes real-time notifications and privacy controls.',
-        technologies: ['React Native', 'Node.js', 'GraphQL', 'Redis', 'AWS S3'],
-        link: '#'
-    },
-    {
-        id: 3,
-        title: 'Task Management System',
-        images: [
-            'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&h=400&fit=crop',
-            'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=600&h=400&fit=crop'
-        ],
-        description: 'Collaborative project management tool for teams. Create tasks, set deadlines, and track progress.',
-        longDescription: 'A powerful task management platform designed for teams of all sizes. Features include kanban boards, gantt charts, time tracking, file sharing, and team collaboration tools. Integration with popular tools like Slack streamlines workflow.',
-        technologies: ['React', 'TypeScript', 'Express', 'PostgreSQL', 'Docker'],
-        link: '#'
+        description: 'A digital platform created to introduce Wringinanom Village is culture, attractions, and tourism experiences to visitors.',
+        longDescription: 'This website was developed to support the tourism growth of Desa Wisata Wringinanom by providing an online hub where visitors can explore cultural activities, local heritage, and places to visit. The project was built collaboratively as part of a community initiative and focused on combining modern web design with traditional visual elements to represent the village identity. I joined as a volunteer front-end developer during Semester 2 and was responsible for creating the news catalog and article page using HTML, CSS, and JavaScript, as well as assisting with the integration of front-end layouts to the back-end system.',
+        technologies: ['HTML', 'CSS', 'JavaScript'],
+        link: 'https://github.com/LukasMystic/Project-Wringinanom'
     }
 ];
 
